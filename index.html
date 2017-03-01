@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+<div class="header">
+		<!-- <div class="overlay"></div> -->
+
+		<!-- <p id="demo">Click the button to get your position.</p> -->
+
+		<!-- <button onclick="getLocation()">Get Current Temp of your Location</button> -->
+
+		<div id="mapholder"></div>
+
+		<div class="title_section">
+			<h1 id="city" class="visibility"></h1>
+			<h3 id="country" class="visibility"></h3>
+			<span id="temp" class="visibility"></span>
+			<span  id="unit" class="visibility">&#8451;</span><br>
+			<span id="sunny" class="visibility"></span>
+			<img id="icon"  class="visibility" src="" alt="icon">
+			<br>
+			<button id="btn">Get Temp by Current Location</button>
+			<br>
+			<p>Or</p>
+			<br>
+			<input type="text" name="" id="cityname" placeholder="Enter City Name">
+			<button id="find">Find</button>
+		</div>
+</div>
+
+
+
+
+<!-- <script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&sensor=false&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+//To use this code on your website, get a free API key from Google.
+//Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+</script> -->
+
+
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script> 
+<!-- jquery UI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

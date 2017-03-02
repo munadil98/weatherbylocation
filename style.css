@@ -33,14 +33,14 @@ body{
 	
 
 #temp{
-	font-size: 50px;
+	font-size: 30px;
     font-family: sans-serif;
     color: gold;
 }
 
 #unit{
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
     font-family: sans-serif;
 }
 
@@ -52,11 +52,11 @@ body{
 
 #sunny{
 	color: yellow;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 #icon{
-	width: 50px;
+	width: 30px;
 }
 
 #country{

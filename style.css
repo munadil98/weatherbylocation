@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	padding: 0;
+	color: white;
+	text-align: center;
 }
 
 /*start header*/
@@ -17,9 +19,9 @@ body{
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	/*background: url('https://source.unsplash.com/random/');*/
-	/*background-size: cover;
-	background-attachment: fixed;*/
+	background: url('https://source.unsplash.com/random/');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 
@@ -31,14 +33,20 @@ body{
 	
 
 #temp{
-	font-size: 150px;
+	font-size: 50px;
     font-family: sans-serif;
     color: gold;
 }
 
 #unit{
-	/*color: white;*/
-	font-size: 150px;
+	color: white;
+	font-size: 50px;
+    font-family: sans-serif;
+}
+
+.unit1{
+	color: white;
+	font-size: 30px;
     font-family: sans-serif;
 }
 
@@ -53,7 +61,7 @@ body{
 
 #country{
 	margin: 0;
-	/*color: white;*/
+	color: white;
 }
 
 
@@ -64,22 +72,22 @@ body{
 }
 .title_section{
 	margin: 0;
-	width: 50%;
+	/*width: 50%;*/
 	text-align: center;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*top: 50%;*/
+	/*transform: translate(-50%, -50%);*/
 }
 
 .title_section h1{
-	/*color: white;*/
+	color: white;
 	margin: 0;
 	font-family: sans-serif;
 }
 
 .title_section p{
-	/*color: white;*/
+	color: white;
 	font-family: sans-serif;
 }
 
@@ -88,6 +96,7 @@ input{
 	width: 200px;
 	height: 30px;
 	padding-left: 5px;
+	color: black;
 }
 
 .title_section button{
@@ -98,6 +107,10 @@ input{
 	border-bottom: 2px solid #ac4829;
 	color: white;
 	font-weight: bolder;
+}
+
+.forecast{
+
 }
 
 /*end header*/
